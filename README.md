@@ -6,7 +6,7 @@ Aplicacion para generar recibos automaticos
 
 2)Subir archivo de bajadas.txt
 
-3)Clck en 'Cargar recibos'
+3)Click en 'Cargar recibos'
 
 4)Descargar PDF
 
