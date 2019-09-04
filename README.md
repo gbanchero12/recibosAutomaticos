@@ -4,7 +4,7 @@ Aplicacion para generar recibos automaticos
 
 1)Abrir index.html
 
-2)Subir archivo de bajadas.txt
+2)Cargar archivo "bajadas.txt" con información 
 
 3)Click en 'Cargar recibos'
 
