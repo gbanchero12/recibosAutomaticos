@@ -1,0 +1,54 @@
+﻿<html>
+<head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<script src="jquery-3.3.1.min.js"></script>
+	<meta charset="UTF-8"/>
+	
+	<script src="jspdf.js"></script>
+	<script src="FileSaver.js"></script>
+	<script src="zlib.js"></script>
+	<script src="png.js"></script>
+	<script src="addimage.js"></script>
+	<script src="png_support.js"></script>
+
+
+	<script src="numerosAletras.js"></script>
+	
+	<script type="text/javascript" src="generarBase64.js"></script>
+	
+</head>
+<body>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p><h3>&nbsp;&nbsp;<strong>&nbsp;&nbsp;Recibos Automáticos:</strong></h3></p>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) Seleccionar datos (formato: .txt):
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" id="file"> 
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) <input type="button" value="Cargar datos" id="btnCargar"> <label id="lblDatos"></label>
+<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) Seleccionar imagen de recibo:
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='file' id="recibo">
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4) <input type="button" value="Generar recibos" id="btnGenerar"> <label id="lblGenerar"></label>
+<br><br>
+
+<script src="bundle.js" charset="utf-8"></script>
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5) <input type="button" id="btnSave" value="Descargar recibos" name="">
+<br>
+<br>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="ab logo.gif" style="margin: 0 auto;"></p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;©Guillermo Banchero
+
+</body>
+</html>
